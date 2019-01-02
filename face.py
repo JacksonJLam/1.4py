@@ -1,6 +1,6 @@
 #face.py
 #Jackson Lambert 12-9-18
-#Creates and archery targe
+#Creates a face
 
 from graphics import *
 
