@@ -12,7 +12,7 @@ def main():
     for i in range(10):
         p = win.getMouse()
         c = shape.getCenter()
-        dx = p.getX() - c.getY()
+        dx = p.getX() - c.getX()
         dy = p.getY() - c.getY()
         shapeCopy = shape.clone()
         shape.move(dx,dy)
